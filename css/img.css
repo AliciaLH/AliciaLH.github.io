@@ -1,0 +1,21 @@
+img{
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+}
+.row-1{
+    align-items: center;
+    margin-left: 50px;
+}
+.row-2{
+    align-items: center;
+    margin-left: 50px;
+}
+.row-3{
+    align-items: center;
+    margin-left: 50px;
+}
+.final{
+    align-items: center;
+    margin-left: 50px;
+}

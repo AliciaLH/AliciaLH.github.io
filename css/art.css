@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.bg-1{
+    background-color: orange;
+}
+.bg-2{
+    background-color: tomato;
+}
+.credit{
+    text-align: center;
+}
+h1 a{
+    color: black;
+    text-decoration: underline;
+}
+.grid ul li a{
+    text-decoration: none;
+    padding: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 100px 200px 100px;
+    grid-template-areas: 
+    "count aust berlin "
+    "count aust berlin"
+    "lisb lond ba"
+    "lisb lond ba"
+    "usa usa ba";
+    text-align: center;
+}
+.count{
+    grid-area: count;
+}
+.aust{
+    grid-area: aust;
+}
+.berlin{
+    grid-area: berlin;
+}
+.lisb{
+    grid-area: lisb;
+}
+.lond{
+    grid-area: lond;
+}
+.ba{
+    grid-area: ba;
+    padding-top: 50px;
+}
+.usa{
+    grid-area: usa;
+    float: left;
+}
+.other{
+    text-align: center;
+}

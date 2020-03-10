@@ -1,0 +1,11 @@
+body{
+	background-color: maroon;
+}
+canvas {
+	width:100%;
+	height:100%;
+}
+.try{
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,62 @@
+img{
+    width: 50vh;
+    height: 50vh;
+}
+#box{
+    background-image: url(../images/Artist/BuenosAires.jpg);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#box1{
+    background-image: url(../images/Artist/Melbourne.jpg);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#box2{
+    background-image: url(../images/Artist/London.jpg);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#box3{
+    background-image: url(../images/Artist/Berlin.jpg);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#box4{
+    background-image: url(../images/Artist/lisbon.jpg);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#box5{
+    background-image: url(../images/Artist/USA.jpg);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    padding-top: 230px;
+}
+h3 a{
+    color: white;
+    font-size: 2em;
+    text-shadow: 0 0 10px rgba(12,3,25,0.8); 
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="css/country.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Street Art around the world</h2>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">Contact</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li><a href="count.html">Countries</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <div id="box">
+        <h3><a href="ba.html">Buenos Aires, Argentina</a></h3>
+     </div>
+     <div id="box1">
+         <h3><a href="aust.html">Melbourne, Australia</a></h3> 
+     </div>
+      <div id="box2">
+         <h3><a href="lond.html">London, England</a></h3>             
+     </div>
+     <div id="box3">
+         <h3><a href="berlin.html">Berlin, Germany</a></h3>
+     </div>
+     <div id="box4">
+         <h3><a href="lisb.html">Lisbon, Portugal</a></h3>
+     </div>
+     <div id="box5">
+         <h3><a href="nyla.html">New York and Los Angeles, USA</a></h3>
+     </div>
+     <footer>
+         <p>All artists are credited <a href="artists.html">here</a></p>
+         <p>Have any countries or cities that you wanted to see? <a href="about.html">Contact Us!</a></p>
+     </footer>
+         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+          <script>
+              $(document).ready(function(){
+                  $('.icon').click(function(){
+                      $('nav ul').toggleClass('active');
+                  });
+              });
+          </script>
+</body>
+</html>
